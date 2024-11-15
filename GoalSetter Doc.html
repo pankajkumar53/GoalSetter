@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoalSetter App Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #67C0BE, #478382);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        section h2 {
+            color: #67C0BE;
+        }
+        .screenshot {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .screenshot img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GoalSetter App</h1>
+    <p>Your personal goal management companion</p>
+</header>
+
+<section>
+    <h2>Features</h2>
+    <ul>
+        <li>Goal Management: Create, update, and delete your goals easily.</li>
+        <li>Firebase Authentication: Securely sign up and log in users.</li>
+        <li>Push Notifications: Get reminders for important updates or goal deadlines.</li>
+        <li>Custom Dialogs: Beautifully designed popups for goal management.</li>
+        <li>Modern UI: Gradient-rich designs built with Jetpack Compose.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Screenshots</h2>
+    <div class="screenshot">
+        <img src="ui.png" alt="Home Screen">
+    </div>
+</section>
+
+<section>
+    <h2>Getting Started</h2>
+    <ol>
+        <li>Clone the repository: <code>git clone https://github.com/erpankajkumar53/GoalSetter.git</code></li>
+        <li>Open the project in Android Studio.</li>
+        <li>Configure Firebase:
+            <ul>
+                <li>Go to the Firebase Console and download the <code>google-services.json</code> file.</li>
+                <li>Place the file in the <code>app/</code> directory.</li>
+            </ul>
+        </li>
+        <li>Build and run the app on your device or emulator.</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Firebase Integration</h2>
+    <h3>Authentication</h3>
+    <p>Supports secure user sign-up, login, and auto-login using Firebase Authentication.</p>
+    <h3>Cloud Messaging</h3>
+    <p>Sends notifications to remind users about important goal updates or deadlines.</p>
+</section>
+
+<section>
+    <h2>Tech Stack</h2>
+    <ul>
+        <li>Kotlin</li>
+        <li>Jetpack Compose</li>
+        <li>Material3</li>
+        <li>ViewModel for state management</li>
+        <li>Firebase Authentication</li>
+        <li>Firebase Cloud Messaging</li>
+    </ul>
+</section>
+
+<section>
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License.</p>
+</section>
+
+<footer>
+    <p>© 2024 GoalSetter App | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
