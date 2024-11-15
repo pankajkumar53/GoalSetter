@@ -19,12 +19,7 @@
 ### **Home Screen**
 The Home screen showcases all your goals in a visually appealing grid layout. Tap on a goal to manage it.
 
-![Home Screen](path/to/home_screen.png)
-
-### **Manage Goals**
-Easily update or delete a goal using the custom popup.
-
-![Manage Goals](path/to/popup_screen.png)
+![Ui Images]([path/to/home_screen.png](https://github.com/pankajkumar53/GoalSetter/blob/39bbfd2d19b12dd8843ae81b2c87824f79e20010/ui.png))
 
 ---
 
