@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "520836507070",
+    "firebase_url": "https://goal-setter-7c9d3-default-rtdb.firebaseio.com",
+    "project_id": "goal-setter-7c9d3",
+    "storage_bucket": "goal-setter-7c9d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520836507070:android:3ec3028f0974abd8b705ef",
+        "android_client_info": {
+          "package_name": "com.pandroid.goalsetter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxAwv78QlrxkG93zwzAzdoMmUiPR4tj6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
